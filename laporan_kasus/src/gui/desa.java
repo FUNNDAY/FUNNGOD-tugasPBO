@@ -105,7 +105,7 @@ public class desa extends javax.swing.JFrame {
                                 .addGap(18, 18, 18)
                                 .addComponent(txtWarna, javax.swing.GroupLayout.PREFERRED_SIZE, 203, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGroup(layout.createSequentialGroup()
-                            .addContainerGap(23, Short.MAX_VALUE)
+                            .addContainerGap(25, Short.MAX_VALUE)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                 .addGroup(layout.createSequentialGroup()
                                     .addComponent(jLabel4)
@@ -134,7 +134,7 @@ public class desa extends javax.swing.JFrame {
                                     .addComponent(jLabel2))
                                 .addGap(22, 22, 22)
                                 .addComponent(txtNama, javax.swing.GroupLayout.PREFERRED_SIZE, 203, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addContainerGap(72, Short.MAX_VALUE))
+                .addContainerGap(30, Short.MAX_VALUE))
         );
 
         layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {txtJumlah, txtLat, txtLong, txtNama});
@@ -142,7 +142,7 @@ public class desa extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(32, Short.MAX_VALUE)
+                .addContainerGap(30, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
                     .addComponent(txtId, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -171,7 +171,7 @@ public class desa extends javax.swing.JFrame {
                     .addComponent(btnSimpan)
                     .addComponent(btnUbah)
                     .addComponent(btnHapus))
-                .addGap(24, 24, 24))
+                .addGap(30, 30, 30))
         );
 
         pack();
